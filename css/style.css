@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 15rem;
+}
+a{
+    text-decoration: none;
+}
+/* header */
+header{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 99;
+}
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 15%;
+}
+.logo img{
+    width: 100%;
+}
+nav{
+    width: 55%;
+}
+nav a{
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+.app{
+    width: 15%;
+}
+.app a{
+    color: #252525;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 15px 35px;
+    font-size: 19px;
+    font-weight: bold;
+}
+/* header */
+/* Thermo */
+#Thermo{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_slide1.jpg?id=22308);
+    background-attachment: fixed;
+}
+.thermo-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.thermo-all .left{
+    width: 40%;
+}
+.thermo-all .right{
+    width: 55%;
+}
+.thermo-all .left h1{
+    color: #fff;
+    font-size: 55px;
+    margin: 1rem 0;
+}
+.thermo-all .left p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 3rem;
+}
+.thermo-all .left a{
+    background-color: rgb(56, 169, 224);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+/* Thermo */
+/* Products */
+#Products{
+    padding: 20rem 0;
+}
+#Products h1::before{
+    content:'Digital';
+    opacity: 0.1;
+    font-size: 10rem;
+    top: -104px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    position: absolute;
+}
+#Products h1{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 40px;
+   
+    z-index: 2;
+    position: relative;
+}
+.pr-all{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pr-all .box{
+    width: 30%;
+    margin-bottom: 50px;
+    position: relative;
+    border-radius: 0 0 10px 10px;
+}
+.pr-all .box img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius:10px 10px 0 0;
+    transition: .5s;
+    
+    
+}
+.pr-all .box img:hover{
+    transform: scale(1.2);
+}
+.pr-all .top{
+    overflow: hidden;
+}
+.pr-all .top .overlay{
+    z-index: 3;
+    position: absolute;
+    background-color: #fff;
+    display: grid;
+    padding: 20px 8px;
+    border-radius: 20px;
+    right: 15px;
+    top: 15px;
+}
+.pr-all .top .overlay i{
+    margin: 10px 0;
+    color: #000;
+    transition: .1;
+}
+.pr-all .top .overlay i:hover{
+    color: #208bbf;
+}
+.pr-all .bottom{
+    background-color:#f2f2f2;
+    padding: 25px;
+}
+.pr-all .bottom a,span{
+    color: #111111;
+    font-size: 22px;
+}
+.pr-all .bottom-b{
+    display: flex;
+    justify-content: space-between;
+}
+.explore{
+    text-align: center;
+    padding: 2rem 0;
+}
+.explore a{
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color:rgb(0, 107, 166);
+    color: #fff;
+    font-weight: bold;
+}
+/* Premium Quality */
+#Quality    {
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_banner.jpg?id=22303);
+    margin-top: -15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pre{
+    text-align: center;
+    color: #ffff;
+    padding: 10rem 0;
+}
+.pre,.page_4  h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.pre p{
+    font-size: 20px;
+    margin-bottom: 4rem;
+}
+.pre a{
+    color: #006ba6;
+    background-color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 20px 40px;
+}
+/* Premium Quality */
+/* Digital Thermos */
+.digital-all{
+    text-align: center;
+    width: 100%;
+    padding: 5rem 0;
+}
+.digital-all h2{
+    padding: 2rem 0;
+    font-size: 30px;
+}
+.digital-all .gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.digital-all .box{
+    width: 30%;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+.digital-all .box img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 10px 10px 0 0;
+}
+.digital-all .box .bottom{
+    background-color: #f2f2f2;
+    padding: 20px 10px;
+    border-radius: 0 0 10px 10px;
+}
+.p2_btn{
+    font-size: 18px;
+    color: #ffff;
+    background-color: #006ba6;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+/* Digital Thermos */
+/* Subscribe */
+#Subscribe{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/subscribe-bg.jpg?id=22100);
+    text-align: center;
+    padding: 10rem 0;
+}
+.news-all input{
+    border-radius: 35px;
+    height: 70px;
+    font-size: 15px;
+    border: 0;
+    padding: 25px;
+    width: 35%;
+    margin: 4rem 20rem;
+    font-weight: 400;
+    outline: none;
+}
+.news-all h2{
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.news-all p{
+    color: #fff;
+    font-size: 19px;
+}
+/* Subscribe */
+/* Brand Partner */
+#Brand{
+    padding: 7rem;
+    
+}
+.brand-all{
+    color: #111111;
+    text-align: center;
+    font-size: 25px;
+}
+.brand-all h2{
+    margin: 1rem 0;
+}
+.brand-all p{
+    color: #777777;
+}
+
+.brand-all .gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.brand-all .gallery .box{
+    width: calc(100%/6);
+    padding: 10px;
+}
+.brand-all .gallery .box img{
+    width: 100%;
+}
+/* Brand Partner */
+/* Medical Check */
+#Medical-Check{
+    padding: 8rem 0;
+}
+.medic-all{
+    display: flex;
+    justify-content: space-between;
+}
+.medic-all .left{
+    width: 50%;
+}
+.medic-all .right{
+    width: 50%;
+}
+.medic-all .right img{
+    width: 100%;
+}
+.medic-all .left .box{
+    width: 50%;
+}
+.medic-all .left h2{
+    font-size: 36px;
+    color: #3D404F;
+}
+.medic-all .left .box h3{
+    color: #434959;
+    font-size: 24px;
+    margin: 12px 0 10px;
+}
+.medic-all .left .box p{
+    color: #777777;
+    font-size: 15px;
+}
+.medic-all .left .box img{
+    width: 30%;
+    margin: 20px 0;
+}
+.medic-all .bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* Medical Check */
+/* News-Clinika  */
+#News-Clinika{
+    padding: 5rem 0;
+}
+.nw-all{
+    margin-top: 5rem;
+    text-align: center;
+}
+.nw-all .gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nw-all .gallery .box{
+    width: 32%;
+    align-items: center;
+
+}
+.nw-all .gallery .box img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.nw-all .gallery .box .bottom{
+    text-align: left;
+    padding-left: 20px;
+}
+.nw-all h2{
+    font-size: 36px;
+    color: #222222;
+    margin-bottom: 10px;
+}
+.nw-all p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #777777;
+    margin-bottom: 60px;
+}
+.nw-all .box .bottom .txt_a{
+    color: #3D404F;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.nw-all .p_8_a{
+    font-size: 16px;
+    color: #223441;
+    font-weight: bold;
+}
+/* News-Clinika  */
+/* Footer */
+footer{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/09/Clinika-footer2-scaled.jpg);
+    padding: 25rem 0 0;
+}
+footer input{
+    height: 45px;
+    font-size: 15px;
+    border: 0;
+    float: left;
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: 400;
+    outline: 0;
+    color: #666;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+footer .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .top .left{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+footer .top .left .box{
+    width: calc(100%/3);
+}
+footer .top .left .box a{
+    display: block;
+    color: #ffff;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+footer .top .left .box h3{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer .top .right{
+    text-align: left;
+    color: #ffff;
+}
+footer .top .right h3{
+ font-size: 20px;
+ font-weight: bold;
+ margin-bottom: 20px;
+}
+footer .top .right p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+footer .top .right i{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.inline{
+    display: inline;
+}
+footer .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+footer .bottom .left{
+    width: 20%;
+}
+footer .bottom .right{
+    width: 50%;
+    text-align: right;
+    color: #ffff;
+}
+footer .bottom .left img{
+    width: 70%;
+}
+/* Footer */
